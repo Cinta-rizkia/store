@@ -1,0 +1,49 @@
+.container1{
+  margin: 90px
+}
+.container{
+    display:flex;
+    width:auto;
+    height:auto;
+    gap:20px;
+    margin-left: 30px;
+}
+
+.card{
+    width:16rem;
+    height:360px;
+    border-radius:12px;
+    box-shadow: 0 1px 2px rgba(187, 22, 22, 0.4);
+    overflow:hidden;
+}  
+.card img{
+    width:100%;
+    height: 200px;
+    display:block;
+    background-color: red;
+
+}     
+  .card:hover{
+  background-color:grey;
+}    
+                                            
+         .btn-grad {background-image: linear-gradient(to right, #C04848 0%, #480048  51%, #C04848  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #551515ff;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #991f1fff;
+            text-decoration: none;
+          }
+         
