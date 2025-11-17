@@ -8,21 +8,24 @@
     width:16rem;
     height:360px;
     border-radius:12px;
-    box-shadow: 0 1px 2px rgba(187, 22, 22, 0.4);
+    box-shadow: 0 1px 2px rgba(167, 12, 141, 0.4);
     overflow:hidden;
+     margin-top: 50px;
+
 }  
 .card img{
     width:100%;
     height: 200px;
     display:block;
-    background-color: red;
-
+    background-color: rgb(192, 155, 180);
 }     
   .card:hover{
-  background-color:rgb(175, 89, 89);
+  background-color:rgb(231, 192, 229);
+  transform: scale(1.1);
+  transition: all 0.7s ease;
 }    
                                             
-         .btn-grad {background-image: linear-gradient(to right, #C04848 0%, #480048  51%, #C04848  100%)}
+         .btn-grad {background-image: linear-gradient(to right, #e7cde1 0%, #f5c2f2  51%, #be8aaa  100%)}
          .btn-grad {
             margin: 10px;
             padding: 15px 45px;
@@ -31,14 +34,14 @@
             transition: 0.5s;
             background-size: 200% auto;
             color: white;            
-            box-shadow: 0 0 20px #551515ff;
+            box-shadow: 0 0 20px rgb(219, 164, 217);
             border-radius: 10px;
             display: block;
           }
 
           .btn-grad:hover {
             background-position: right center; 
-            color: #991f1fff;
+            color: rgb(224, 188, 220);
             text-decoration: none;
           }
           .iklan{
@@ -61,7 +64,7 @@
     justify-content: space-between;
     box-shadow: 0 1px 2px rgba(187, 22, 22, 0.4);
     overflow:hidden;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 20px;
 }  
 .category img{
@@ -70,6 +73,11 @@
     background-color: red;
     justify-content: center;
 }
+.category:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
 
     
          
